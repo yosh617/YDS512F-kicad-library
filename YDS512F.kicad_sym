@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 12.192 6.604 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "YDS512F"
-			(at 12.192 4.064 0)
+			(at 0 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.152 193.548 0)
+			(at 60.452 196.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.152 193.548 0)
+			(at 60.452 196.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.152 193.548 0)
+			(at 60.452 196.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "YDS512F_0_1"
 			(rectangle
-				(start 2.54 2.54)
-				(end 21.59 -8.89)
+				(start -10.16 5.08)
+				(end 10.16 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -64,7 +64,7 @@
 		)
 		(symbol "YDS512F_1_1"
 			(pin power_in line
-				(at 0 0 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "Vin"
 					(effects
@@ -82,7 +82,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "Vin"
 					(effects
@@ -100,7 +100,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -11.43 90)
+				(at -5.08 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -118,7 +118,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -11.43 90)
+				(at -2.54 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -136,9 +136,27 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -11.43 90)
+				(at 2.54 -8.89 90)
 				(length 2.54)
 				(name "Vadj"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.715 2.54 180)
+				(length 2.54)
+				(name "Vout"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -154,7 +172,7 @@
 				)
 			)
 			(pin power_out line
-				(at 24.13 0 180)
+				(at 12.715 0 180)
 				(length 2.54)
 				(name "Vout"
 					(effects
@@ -171,17 +189,17 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 24.13 -2.54 180)
+			(pin passive line
+				(at 12.715 -5.08 180)
 				(length 2.54)
-				(name "Vout"
+				(name "Case"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "0"
 					(effects
 						(font
 							(size 1.27 1.27)
