@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "372eec64-1a83-4d89-8261-1d493ee0996f")
 	)
 	(pad "0" thru_hole oval
